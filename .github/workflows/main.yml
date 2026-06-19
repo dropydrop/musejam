@@ -25,11 +25,11 @@ jobs:
           import glob, re, sys
           sha = sys.argv[1]
           
-          # Replace %%CACHE_BUST%% in index.html
-          with open('index.html', 'r', encoding='utf-8') as f:
+          # Replace %%CACHE_BUST%% in MuseJam.html
+          with open('MuseJam.html', 'r', encoding='utf-8') as f:
               html = f.read()
           html = html.replace('%%CACHE_BUST%%', sha)
-          with open('index.html', 'w', encoding='utf-8') as f:
+          with open('MuseJam.html', 'w', encoding='utf-8') as f:
               f.write(html)
           
           # Replace .js imports in all JS files
