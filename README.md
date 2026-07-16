@@ -1,5 +1,5 @@
 # musejam
 Outil d'entrainement musical pour session live en improvisation
 
-# musejam version desktop
+version desktop
 https://github.com/dropydrop/musejam-desktop
